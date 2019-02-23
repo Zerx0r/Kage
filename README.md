@@ -1,1 +1,51 @@
 # Kage
+
+Kage (ka-geh) is a tool designed for Metasploit RPC Server to interact with meterpreter sessions only.
+
+For now it only supports `windows/meterpreter` & `android/meterpreter`
+## Getting Started
+Please follow these instructions to get a copy of Kage running on your local machine without any problems.
+### Prerequisites
+* [Metasploit-framework](https://github.com/rapid7/metasploit-framework) must be installed and in your `PATH`:
+    * Msfrpcd
+    * Msfvenom
+    * Msfdb
+
+
+### Installing
+You can install Kage binaries from [here](https://github.com/WayzDev/Kage/releases).
+#### for developers
+To run the app from source code:
+> [electron-vue](https://simulatedgreg.gitbooks.io/electron-vue/content/en/getting_started.html) officially recommends the [yarn](https://yarnpkg.com/en/) package manager as it handles dependencies much better and can help reduce final build size with `yarn clean`. 
+```bash
+# Download source code
+git clone https://github.com/WayzDev/Kage.git
+
+# Install dependencies and run kage
+cd Kage
+yarn # or npm install
+yarn run dev # or npm run dev
+
+# to build project
+yarn run build
+```
+### Screenshots
+
+### Disclaimer: 
+I will not be responsible for any direct or indirect damage caused due to the usage of this tool, it is for educational purposes only.
+
+Twitter: [@iFalah](https://twitter.com/ifalah_)
+
+Email: ifalah@protonmail.com
+## Credits
+Metasploit Framework - (c) Rapid7 Inc. 2012 (BSD License)<br>
+http://www.metasploit.com/
+
+node-msfrpcd - (c) Tomas Gonzalez Vivo. 2017 (Apache License)<br>
+https://github.com/tomasgvivo/node-msfrpc
+
+electron-vue - (c) Greg Holguin. 2016 (MIT)<br>
+https://github.com/SimulatedGREG/electron-vue
+
+---
+This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[8fae476](https://github.com/SimulatedGREG/electron-vue/tree/8fae4763e9d225d3691b627e83b9e09b56f6c935) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
