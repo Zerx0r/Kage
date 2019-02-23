@@ -59,6 +59,7 @@ I will not be responsible for any direct or indirect damage caused due to the us
 Twitter: [@iFalah](https://twitter.com/ifalah_)
 
 Email: ifalah@protonmail.com
+
 ## Credits
 Metasploit Framework - (c) Rapid7 Inc. 2012 (BSD License)<br>
 http://www.metasploit.com/
@@ -68,6 +69,10 @@ https://github.com/tomasgvivo/node-msfrpc
 
 electron-vue - (c) Greg Holguin. 2016 (MIT)<br>
 https://github.com/SimulatedGREG/electron-vue
+##### Special Thanks to:
+
+Ahmyth-Android-RAT - (c) Ahmyth. 2017 (MIT)<br>
+https://github.com/AhMyth/AhMyth-Android-RAT
 
 ---
 This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[8fae476](https://github.com/SimulatedGREG/electron-vue/tree/8fae4763e9d225d3691b627e83b9e09b56f6c935) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
