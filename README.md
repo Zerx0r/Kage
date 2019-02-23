@@ -21,7 +21,6 @@ Please follow these instructions to get a copy of Kage running on your local mac
 You can install Kage binaries from [here](https://github.com/WayzDev/Kage/releases).
 #### for developers
 to run the app from source code:
-> [electron-vue](https://simulatedgreg.gitbooks.io/electron-vue/content/en/getting_started.html) officially recommends the [yarn](https://yarnpkg.com/en/) package manager as it handles dependencies much better and can help reduce final build size with `yarn clean`. 
 ```bash
 # Download source code
 git clone https://github.com/WayzDev/Kage.git
@@ -34,6 +33,8 @@ yarn run dev # or npm run dev
 # to build project
 yarn run build
 ```
+> [electron-vue](https://simulatedgreg.gitbooks.io/electron-vue/content/en/getting_started.html) officially recommends the [yarn](https://yarnpkg.com/en/) package manager as it handles dependencies much better and can help reduce final build size with `yarn clean`. 
+
 ## Screenshots
 
 <h1>
