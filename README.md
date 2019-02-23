@@ -1,7 +1,12 @@
 # Kage
 
-Kage (ka-geh) is a tool designed for Metasploit RPC Server to interact with meterpreter sessions only.
 
+<h1 align="center">
+  <img width="460" height="300" src="https://github.com/WayzDev/Kage/blob/master/static/kage-logo.svg">
+</h1>
+
+   
+Kage (ka-geh) is a tool designed for Metasploit RPC Server to interact with meterpreter sessions only.<br>
 For now it only supports `windows/meterpreter` & `android/meterpreter`
 ## Getting Started
 Please follow these instructions to get a copy of Kage running on your local machine without any problems.
@@ -30,6 +35,22 @@ yarn run dev # or npm run dev
 yarn run build
 ```
 ## Screenshots
+
+<h1>
+  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/server.png">
+</h1>
+<h1>
+  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/dashboard.png">
+</h1>
+<h1>
+  <img  src="https://github.com/WayzDev/Kage/blob/master/screenshots/sessions.png">
+</h1>
+<h1>
+  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/control-panel1.png">
+</h1>
+<h1>
+  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/file-manager.png">
+</h1>
 
 ## Disclaimer: 
 I will not be responsible for any direct or indirect damage caused due to the usage of this tool, it is for educational purposes only.
