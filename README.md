@@ -69,7 +69,6 @@ https://github.com/tomasgvivo/node-msfrpc
 
 electron-vue - (c) Greg Holguin. 2016 (MIT)<br>
 https://github.com/SimulatedGREG/electron-vue
-##### Special Thanks to:
 
 Ahmyth-Android-RAT - (c) Ahmyth. 2017 (GPL)<br>
 https://github.com/AhMyth/AhMyth-Android-RAT
