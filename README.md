@@ -29,9 +29,9 @@ yarn run dev # or npm run dev
 # to build project
 yarn run build
 ```
-### Screenshots
+## Screenshots
 
-### Disclaimer: 
+## Disclaimer: 
 I will not be responsible for any direct or indirect damage caused due to the usage of this tool, it is for educational purposes only.
 
 Twitter: [@iFalah](https://twitter.com/ifalah_)
