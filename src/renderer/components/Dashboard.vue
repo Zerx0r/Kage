@@ -291,7 +291,6 @@
                     this.listJobs()
                   }, 1000)
                 } else {
-                  // you have to fix this one because after starting the server and create the first job some error occurs
                   console.log('error created')
                   this.$message.error('Error: can\'t create job please try again.')
                 }
