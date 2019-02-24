@@ -36,20 +36,23 @@ yarn run build
 > [electron-vue](https://simulatedgreg.gitbooks.io/electron-vue/content/en/getting_started.html) officially recommends the [yarn](https://yarnpkg.com/en/) package manager as it handles dependencies much better and can help reduce final build size with `yarn clean`. 
 
 ## Screenshots
-
 <h1>
-  <img  src="https://github.com/WayzDev/Kage/blob/master/screenshots/sessions.png">
+  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/dashboard.png"/>
 </h1>
 <h1>
-  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/control-panel1.png">
+  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/sessions.png"/>
 </h1>
 <h1>
-  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/file-manager.png">
+  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/control-panel1.png"/>
+</h1>
+<h1>
+  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/file-manager.png"/>
 </h1>
 
 ## Video Tutorial
 
-<a href="https://vimeo.com/319338721" target="_blank"><img src="https://github.com/WayzDev/Kage/blob/master/screenshots/dashboard.png"></a>
+<a href="https://vimeo.com/319338721" target="_blank"><img src="https://github.com/WayzDev/Kage/blob/master/screenshots/server.png" />
+</a>
 
 ## Disclaimer: 
 I will not be responsible for any direct or indirect damage caused due to the usage of this tool, it is for educational purposes only.
