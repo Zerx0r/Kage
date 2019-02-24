@@ -38,12 +38,6 @@ yarn run build
 ## Screenshots
 
 <h1>
-  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/server.png">
-</h1>
-<h1>
-  <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/dashboard.png">
-</h1>
-<h1>
   <img  src="https://github.com/WayzDev/Kage/blob/master/screenshots/sessions.png">
 </h1>
 <h1>
@@ -52,6 +46,10 @@ yarn run build
 <h1>
   <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/file-manager.png">
 </h1>
+
+## Video Tutorial
+
+<a href="https://vimeo.com/319338721" target="_blank"><img src="https://github.com/WayzDev/Kage/blob/master/screenshots/dashboard.png"></a>
 
 ## Disclaimer: 
 I will not be responsible for any direct or indirect damage caused due to the usage of this tool, it is for educational purposes only.
