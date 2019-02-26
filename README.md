@@ -6,7 +6,7 @@
 </h1>
 
    
-Kage (ka-geh) is a tool designed for Metasploit RPC Server to interact with meterpreter sessions and generate payloads.<br>
+Kage (ka-geh) is a tool inspired by [Ahmyth](https://github.com/AhMyth/AhMyth-Android-RAT) designed for Metasploit RPC Server to interact with meterpreter sessions and generate payloads.<br>
 For now it only supports `windows/meterpreter` & `android/meterpreter`
 ## Getting Started
 Please follow these instructions to get a copy of Kage running on your local machine without any problems.
@@ -54,7 +54,7 @@ yarn run build
 <a href="https://vimeo.com/319338721" target="_blank"><img src="https://github.com/WayzDev/Kage/blob/master/screenshots/server.png" />
 </a>
 
-## Disclaimer: 
+## Disclaimer 
 I will not be responsible for any direct or indirect damage caused due to the usage of this tool, it is for educational purposes only.
 
 Twitter: [@iFalah](https://twitter.com/ifalah_)
