@@ -5,7 +5,7 @@ build/*
 !build/icons
 node_modules/
 npm-debug.log
+.idea
 npm-debug.log.*
-yarn.lock
 thumbs.db
 !.gitkeep

@@ -54,6 +54,14 @@
       "icon": "build/icons/icon.ico"
     },
     "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
       "icon": "build/icons/"
     }
   },
