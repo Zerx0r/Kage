@@ -37,8 +37,8 @@ yarn run build
 > [electron-vue](https://simulatedgreg.gitbooks.io/electron-vue/content/en/getting_started.html) officially recommends the [yarn](https://yarnpkg.com/en/) package manager as it handles dependencies much better and can help reduce final build size with `yarn clean`. 
 
 
-##### Note
-For Generating APK Payload select `Raw` format in dropdown list. 
+##### For Generating APK Payload select `Raw` format in dropdown list. 
+
 ## Screenshots
 <h1>
   <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/dashboard.png"/>
