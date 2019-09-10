@@ -7,7 +7,8 @@
 
    
 Kage (ka-geh) is a tool inspired by [AhMyth](https://github.com/AhMyth/AhMyth-Android-RAT) designed for Metasploit RPC Server to interact with meterpreter sessions and generate payloads.<br>
-For now it only supports `windows/meterpreter` & `android/meterpreter`
+For now it only supports `windows/meterpreter` & `android/meterpreter`.
+
 ## Getting Started
 Please follow these instructions to get a copy of Kage running on your local machine without any problems.
 ### Prerequisites
@@ -34,7 +35,8 @@ yarn run dev # or npm run dev
 yarn run build
 ```
 > [electron-vue](https://simulatedgreg.gitbooks.io/electron-vue/content/en/getting_started.html) officially recommends the [yarn](https://yarnpkg.com/en/) package manager as it handles dependencies much better and can help reduce final build size with `yarn clean`. 
-
+#####Note
+For Generating APK Payload select `Raw` format in dropdown list.
 ## Screenshots
 <h1>
   <img src="https://github.com/WayzDev/Kage/blob/master/screenshots/dashboard.png"/>
