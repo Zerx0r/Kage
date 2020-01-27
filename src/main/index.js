@@ -25,8 +25,9 @@ function createWindow () {
     height: 563,
     useContentSize: true,
     width: 1200,
+    title: 'Kage',
     webPreferences: {
-      webSecurity: false
+      webSecurity: false,
     },
     show: false
   })
