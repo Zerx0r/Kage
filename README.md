@@ -70,7 +70,7 @@ Email: ifalah@protonmail.com
 Metasploit Framework - (c) Rapid7 Inc. 2012 (BSD License)<br>
 http://www.metasploit.com/
 
-node-msfrpcd - (c) Tomas Gonzalez Vivo. 2017 (Apache License)<br>
+node-msfrpc - (c) Tomas Gonzalez Vivo. 2017 (Apache License)<br>
 https://github.com/tomasgvivo/node-msfrpc
 
 electron-vue - (c) Greg Holguin. 2016 (MIT)<br>
