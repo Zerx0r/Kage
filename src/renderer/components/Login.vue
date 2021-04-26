@@ -19,7 +19,7 @@
               </el-input>
             </el-form-item>
             <el-form-item prop="password">
-              <el-input type="password" :type="passwordField" v-model="LoginForm.password" placeholder="Password">
+              <el-input :type="passwordField" v-model="LoginForm.password" placeholder="Password">
                 <font-awesome-icon slot="prefix" icon="lock" class="el-input__icon"/>
                 <i slot="suffix" class="el-input__icon el-icon-view" @click="showPass()" style="cursor: pointer;"></i>
               </el-input>
@@ -35,8 +35,9 @@
             </el-form-item>
             <el-form-item>
               <el-button type="primary" style="width:100%;" :loading="loadingStatus" @click="onSubmit('LoginForm')">Connect</el-button>
-              <small style="color:#f3f3f3">Remember to terminate msfrpcd before starting server <code style="background-color: #232e3b;">&gt; kill msfrpcd</code></small>
             </el-form-item>
+              <small style="color:#f3f3f3;">Remember to terminate msfrpcd before starting server <code style="background-color: #232e3b;  user-select: auto;">&gt; sudo kill -9 $(sudo lsof -t -i:55552)</code></small>
+
           </el-form>
         </div>
         <el-dialog
@@ -182,7 +183,7 @@ export default {
       let response
       // used --component database to start only msfdb without web services
       // change it if needed to 'msfdb start'
-      response = await this.executeServerCommands('msfdb start')
+      response = await this.executeServerCommands('msfdb start --component database')
       if (response === 0) {
         this.activeStep++
       } else {

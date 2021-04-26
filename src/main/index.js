@@ -27,7 +27,7 @@ function createWindow () {
     width: 1200,
     title: 'Kage',
     webPreferences: {
-      webSecurity: false,
+      webSecurity: false
     },
     show: false
   })
@@ -37,17 +37,17 @@ function createWindow () {
     frame: false,
     alwaysOnTop: true
   })
-  splash.loadURL(`file://${__static}/splash.html`);
+  splash.loadURL(`file://${__static}/splash.html`)
   mainWindow.loadURL(winURL)
   mainWindow.on('closed', () => {
     mainWindow = null
   })
   mainWindow.once('ready-to-show', () => {
     setTimeout(() => {
-      splash.destroy();
-      mainWindow.show();
+      splash.destroy()
+      mainWindow.show()
     }, 1500)
-  });
+  })
 }
 
 app.on('ready', createWindow)
@@ -68,7 +68,7 @@ app.on('certificate-error', (event, webContents, url, error, certificate, callba
   event.preventDefault()
 
   callback(true)
-});
+})
 /**
  * Auto Updater
  *
